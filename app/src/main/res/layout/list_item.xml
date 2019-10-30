@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/listRowTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/listRowImageView"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>
